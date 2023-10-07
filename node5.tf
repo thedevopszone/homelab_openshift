@@ -12,6 +12,7 @@ resource "proxmox_vm_qemu" "node_5" {
         cpu = "host"
         memory = 32768
         scsihw = "virtio-scsi-pci"
+        vmid = 204
 
         vga {
                 type = "std"
